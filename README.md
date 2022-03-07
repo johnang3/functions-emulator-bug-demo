@@ -6,10 +6,11 @@ The code defines two functions with http triggers; a & b.  Calling a writes "Fun
 **Steps to reproduce**
 
 1) Download this repo
-2) Ensure that the firebase CLI is installed and at version 10.2.1.  'firebase --version' should print 10.2.1.
-3) From the functions directory, run `firebase emulators:start --only functions --inspect-functions`
-4) Open a browser and load 'http://localhost:5001/functions-emulator-bug-demo/us-central1/a'
-5) Open a browser and load 'http://localhost:5001/functions-emulator-bug-demo/us-central1/b'
+2) Run `npm install` in the functions directory
+3) Ensure that the firebase CLI is installed and at version 10.2.1.  'firebase --version' should print 10.2.1.
+4) From the functions directory, run `firebase emulators:start --only functions --inspect-functions`
+5) Open a browser and load 'http://localhost:5001/functions-emulator-bug-demo/us-central1/a'
+6) Open a browser and load 'http://localhost:5001/functions-emulator-bug-demo/us-central1/b'
 
 **Expected behavior**
 
